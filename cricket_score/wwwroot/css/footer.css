@@ -1,0 +1,9 @@
+﻿article, footer {
+    display: flex;
+}
+
+.b-footer[_ngcontent-app-root-c12] {
+    width: 100%;
+    height: auto;
+    background-color: #131e29;
+}

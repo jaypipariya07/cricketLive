@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Admin\**" />
+    <Compile Remove="Views\Archivs\**" />
+    <Compile Remove="Views\News\**" />
+    <Compile Remove="Views\Ranking\**" />
+    <Content Remove="Views\Admin\**" />
+    <Content Remove="Views\Archivs\**" />
+    <Content Remove="Views\News\**" />
+    <Content Remove="Views\Ranking\**" />
+    <EmbeddedResource Remove="Views\Admin\**" />
+    <EmbeddedResource Remove="Views\Archivs\**" />
+    <EmbeddedResource Remove="Views\News\**" />
+    <EmbeddedResource Remove="Views\Ranking\**" />
+    <None Remove="Views\Admin\**" />
+    <None Remove="Views\Archivs\**" />
+    <None Remove="Views\News\**" />
+    <None Remove="Views\Ranking\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.1" />
+  </ItemGroup>
+
+</Project>

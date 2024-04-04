@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        div.container {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+        }
+
+        div.live-card-top,
+        div.live-card-middle {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 300px;
+        }
+
+        div.live {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div#circle-tag {
+            background-color: #00f;
+            color: #fff;
+            padding: 5px;
+            border-radius: 50%;
+        }
+
+        span.match-tag {
+            color: #ff4500;
+            font-weight: bold;
+        }
+
+        h2.snameTag {
+            margin: 0;
+        }
+
+        div.icon-arrow img {
+            margin-left: 10px;
+        }
+
+        h3.match-number {
+            margin: 0;
+        }
+
+        div.d-flex {
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        div.team-score {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        img.lazyload {
+            margin-right: 8px;
+        }
+
+        span.comment {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="live-card-middle middleContentHeight score-card">
+            <h3 class="match-number"> 1st TEST <span>, </span><span>Basin Reserve, Wellington</span></h3>
+            <div class="d-flex">
+                <div class="live-c-w w-live">
+                    <div class="team-score">
+                        <img width="45" height="45" class="lazyload" src="https://cricketvectors.akamaized.net/Teams/Q.png?impolicy=default_web" title="AUS" alt="AUS flag">
+                        <span class="live-c">AUS</span>
+                        <span class="inning-f live-c"></span>
+                        <span class="live-c match-score">279/9<sup>*</sup></span>
+                        <span class="match-over live-c">85.0</span>
+                    </div>
+                    <div class="team-score">
+                        <img width="45" height="45" class="lazyload" src="https://cricketvectors.akamaized.net/Teams/R.png?impolicy=default_web" title="NZ" alt="NZ flag">
+                        <span class="live-d">NZ</span>
+                        <span class="inning-f live-d"></span>
+                        <span class="live-d"></span>
+                        <span class="live-d">Yet to bat</span>
+                    </div>
+                </div>
+            </div>
+            <span class="comment">Day 1 : Stumps</span>
+        </div>
+        <div class="live-card-middle middleContentHeight score-card">
+            <h3 class="match-number"> 1st TEST <span>, </span><span>Basin Reserve, Wellington</span></h3>
+            <div class="d-flex">
+                <div class="live-c-w w-live">
+                    <div class="team-score">
+                        <img width="45" height="45" class="lazyload" src="https://cricketvectors.akamaized.net/Teams/Q.png?impolicy=default_web" title="AUS" alt="AUS flag">
+                        <span class="live-c">AUS</span>
+                        <span class="inning-f live-c"></span>
+                        <span class="live-c match-score">279/9<sup>*</sup></span>
+                        <span class="match-over live-c">85.0</span>
+                    </div>
+                    <div class="team-score">
+                        <img width="45" height="45" class="lazyload" src="https://cricketvectors.akamaized.net/Teams/R.png?impolicy=default_web" title="NZ" alt="NZ flag">
+                        <span class="live-d">NZ</span>
+                        <span class="inning-f live-d"></span>
+                        <span class="live-d"></span>
+                        <span class="live-d">Yet to bat</span>
+                    </div>
+                </div>
+            </div>
+            <span class="comment">Day 1 : Stumps</span>
+        </div>
+
+        <!-- Repeat the above code block for additional live cards -->
+
+    </div>
+
+</body>
+</html>

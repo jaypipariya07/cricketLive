@@ -1,0 +1,45 @@
+﻿/* Style for the outer flex container */
+div[style="display:flex"] {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the live card top container */
+div.live-card-top {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Style for the live card content */
+div.live {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+/* Style for the circle tag */
+div#circle-tag {
+    background-color: #00f; /* Change to your preferred color */
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* Style for the match tag */
+span.match-tag {
+    color: #ff4500; /* Change to your preferred color */
+    font-weight: bold;
+}
+
+/* Style for the series name tag */
+h2.snameTag {
+    margin: 0;
+}
+
+/* Style for the right arrow icon */
+div.icon-arrow img {
+    margin-left: 10px;
+}

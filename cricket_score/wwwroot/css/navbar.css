@@ -1,0 +1,14 @@
+﻿.header-wrapper[_ngcontent-app-root-c11] .header[_ngcontent-app-root-c11] .navbar[_ngcontent-app-root-c11] {
+    padding: 10px 20px;
+}
+
+.navbar, .navbar .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    position: relative;
+    padding: 0.5rem 1rem;
+}
